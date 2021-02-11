@@ -1,7 +1,7 @@
   
 node{
     stage('Clone') {
-        git url: 'https://github.com/abdousmi/jenkins-helloworld.git'
+        git url: 'https://github.com/abdousmi/Jenkinsfile2.git'
     }
     stage('Build') {
         sh 'javac Main.java'    
